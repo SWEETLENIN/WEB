@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Good Vibes Form</h1>
+        </div>
+        <div class="registration">
+            <p class="head_text">Tell us something positive that happened to you today.</p>
+            <table cols="2" width="70%" border="0px">
+                <tr class="rows">
+                    <td class="description"><label for="n">Name</label></td>
+                    <td><input type="text" class="n"></td>
+                </tr>
+                <tr class="rows">
+                    <td class="description"><label for="ln">Email</label></td>
+                    <td><input type="email" class="ln"></td>
+                </tr>
+                <tr class="rows">
+                    <td class="description"><label for="a">On a scale of 1-10, how good it was?</label></td>
+                    <td><input class="a"></td>
+                </tr>
+                <tr class="rows">
+                    <td  class="description"><label>Where did it happen?</label></td>
+                    <td>
+                        <select id="place">
+                            <option value="Option 1"></option>
+                            <option value="Option 2">Norilsk</option>
+                            <option value="Option 3">Karaganda</option>
+							<option value="Option 4">Moscow</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr class="rows">
+                    <td class="description"><label>At what time of day did it happen?</label></td>
+                    <td>
+                        <input name="radio_button" type="radio">Morning<br>
+                        <input name="radio_button" type="radio">Afternoon<br>
+                        <input name="radio_button" type="radio">Evening<br>
+                    </td>
+                </tr>
+                <tr class="rows">
+                    <td class="description"><label>What emotion did you experience?<br>(Select all that apply)</label></td>
+                    <td>
+                        <input type="checkbox">Happy<br>
+                        <input type="checkbox">Sad<br>
+                        <input type="checkbox">Excited<br>
+                        <input type="checkbox">Humbled<br>
+                    </td>
+                </tr>
+                <tr class="rows">
+                    <td class="description"><label>Please describe your positive experience.</label></td>
+                    <td><textarea name="comment"></textarea></td>
+                </tr>
+            </table>
+            
+            <a href="#" class="button_1">Submit</a>
+        </div>
+    </body>
+</html>
