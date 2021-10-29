@@ -1,0 +1,115 @@
+body{
+    background-color: #9FD8EC  !important;
+}
+
+.goods{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 48px;
+    line-height: 59px;
+    color: black;
+    margin-top: 91px;
+}
+.form-table{
+    width: 800px;
+    height: 847px;
+    background: #F3F3F3;
+    margin-top: 440px;
+}
+
+.non-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 31px;
+}
+.name-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 45px;
+}
+.name-form{
+    width: 280px;
+    height: 30px;
+    margin-top: 43px;
+}
+.row2{
+    display: flex;
+}
+
+.email-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    padding-top: 29px;
+}
+.email-form{
+    width: 280px;
+    height: 30px;
+    margin-top: 25px;
+}
+.scale-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    padding-top: 29px;
+}
+.number-form{
+    width: 280px;
+    height: 30px;
+    margin-top: 25px;
+}
+.happen-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    padding-top: 29px;
+}
+.happen-form{
+    margin-top: 23px;
+
+}
+.day-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    padding-top: 29px;
+
+}
+.form-check-label{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+}
+.radio-form{
+    padding-top: 36px ;
+}
+.emotion{
+    padding-top: 23px;
+}
+.emotion-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+}
+.select-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+}
+.radio-form2{
+    padding-right: 50px;
+    padding-top: 23px;
+}
+.describe-text{
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 17px;
+    line-height: 22px;
+    padding-top: 29px;
+}
+.text-pool{
+    margin-top: 29px;
+}
+.btn-blue{
+    margin-top: 40px;
+}
