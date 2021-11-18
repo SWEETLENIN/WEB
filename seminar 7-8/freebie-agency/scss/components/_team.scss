@@ -1,0 +1,110 @@
+.team {
+	margin-top: 173px;
+}
+
+.team__inner {
+	padding-top: 135px;
+	padding-bottom: 167px;
+}
+
+.team__items {
+	margin-top: 71px;
+	display: grid;
+	grid-template-columns: repeat(3, 370px);
+	grid-template-rows: 398px;
+	justify-content: space-between;
+}
+.team__item {
+	position: relative;
+	overflow: hidden;
+	transition: all 0.2s linear;
+	&:hover .team__item-content--hover {
+		opacity: 1;
+		bottom: 0;
+		transition: all 0.3s linear;
+	}
+	&:hover .team__item-content {
+		transition: all 0.2s linear;
+		position: absolute;
+		bottom: 0px;
+		left: 0;
+		right: 0;
+	}
+	&:hover .team__item-content--default {
+		position: relative;
+		bottom: -250%;
+		opacity: 0;
+		transition: all 0.2s linear;
+	}
+}
+.team__item-img {
+	width: 370px;
+	object-fit: cover;
+	height: 398px;
+}
+.team__item-content {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	transition: all 0.8s linear;
+}
+.team__item-content--default {
+	background-color: rgba(#fff, 0.5);
+	padding: 13px 0 15px;
+	transition: all 0.4s linear;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+.team__item-content__name {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 1.152px;
+	color: #252525;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.team__item-content--hover {
+	opacity: 0;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(#fff, 0.92);
+	padding: 19px 15px 30px;
+	mix-blend-mode: normal;
+	transition: all 1s linear;
+	position: absolute;
+	bottom: -250%;
+}
+.team__item-content--hover .team__item-content__name {
+	&.team__item-content__name {
+		margin-bottom: 8px;
+	}
+}
+.team__item-content__position {
+	padding-top: 6px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 1.152px;
+	color: #252525;
+	position: relative;
+	margin-bottom: 12px;
+	&:before {
+		content: "";
+		position: absolute;
+		width: 45px;
+		height: 2px;
+		background-color: #252525;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+}
+.team__item-content__quote {
+	font-size: 12px;
+	line-height: 25px;
+	letter-spacing: 1.008px;
+	color: #777777;
+}

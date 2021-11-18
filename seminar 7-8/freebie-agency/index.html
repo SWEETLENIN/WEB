@@ -1,0 +1,566 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Document</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="../node_modules/jquery-bar-rating/dist/themes/fontawesome-stars.css" />
+	<link rel="stylesheet" href="css/libs.min.css" />
+	<link rel="stylesheet" href="css/style.min.css" />
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__inner">
+			<div class="container">
+				<nav class="nav">
+					<button class="burger">
+						<span class="burger__item"></span>
+						<span class="burger__item"></span>
+						<span class="burger__item"></span>
+					</button>
+					<ul class="nav__list">
+						<li class="nav__item active">
+							<a href="#" class="nav__link">WORKS</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">ABOUT</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">SERVICES</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">BLOG</a>
+						</li>
+						<li class="nav__item">
+							<a href="#" class="nav__link">CONTACT</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+
+			<ul class="header__slider">
+				<li class="header__slider-item" style="background-image: url('images/header__slider-1.jpg')">
+					<div class="header__slider-content">
+						<h1 class="header__slider-title">WHERE GREAT IDEAS COME TO LIFE</h1>
+						<p class="header__slider-text">
+							Passionate creative studio helping startups grow their business!
+						</p>
+					</div>
+				</li>
+				<li class="header__slider-item" style="background-image: url('images/header__slider-1.jpg')">
+					<div class="header__slider-content">
+						<h1 class="header__slider-title">WHERE GREAT IDEAS COME TO LIFE</h1>
+						<p class="header__slider-text">
+							Passionate creative studio helping startups grow their business!
+						</p>
+					</div>
+				</li>
+				<li class="header__slider-item" style="background-image: url('images/header__slider-1.jpg')">
+					<div class="header__slider-content">
+						<h1 class="header__slider-title">WHERE GREAT IDEAS COME TO LIFE</h1>
+						<p class="header__slider-text">
+							Passionate creative studio helping startups grow their business!
+						</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</header>
+
+	<main class="main">
+		<section class="top">
+			<div class="container">
+				<div class="top__inner">
+					<div class="top__left">
+						<div class="top__content">
+							<h2 class="top__title">
+								WE ARE
+								<span>THE SQWD</span>
+							</h2>
+							<p class="top__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt.
+							</p>
+						</div>
+						<div class="top__img">
+							<img src="images/top.jpg" alt="" />
+						</div>
+					</div>
+					<div class="top__right">
+						<div class="top__right-img">
+							<img src="images/top__decor.png" alt="" />
+						</div>
+						<p class="top__right-text">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services">
+			<div class="container">
+				<div class="services__inner">
+					<h2 class="services__title title">Our Services</h2>
+					<ul class="services__items">
+						<li class="services__item">
+							<h3 class="services__item-title">Branding</h3>
+							<p class="services__item-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt.
+							</p>
+							<a href="#" class="services__item-link"> READ MORE </a>
+						</li>
+						<li class="services__item">
+							<h3 class="services__item-title">DESIGN</h3>
+							<p class="services__item-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt.
+							</p>
+							<a href="#" class="services__item-link"> READ MORE </a>
+						</li>
+						<li class="services__item">
+							<h3 class="services__item-title">DEVELOPMENT</h3>
+							<p class="services__item-text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt.
+							</p>
+							<a href="#" class="services__item-link"> READ MORE </a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="works">
+			<div class="container">
+				<div class="works__inner">
+					<h2 class="works__title title">Latest Works</h2>
+					<div class="works__sorting-items">
+						<button class="works__sorting-item active" data-filter="all">All</button>
+						<button class="works__sorting-item" data-filter=".web-design">WEB DESIGN</button>
+						<button class="works__sorting-item" data-filter=".branding">BRANDING</button>
+						<button class="works__sorting-item" data-filter=".photography">PHOTOGRAPHY</button>
+						<button class="works__sorting-item" data-filter=".illustrator">ILLUSTRATION</button>
+					</div>
+					<div class="works__work-items">
+						<a href="#" class="works__work-item mix web-design">
+							<div class="works__work-img">
+								<img src="images/works__item-1.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title">100 YEARS PHOTOGRAPHY</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item works__word-item--allocated mix branding">
+							<div class="works__work-img">
+								<img src="images/works__item-2.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title works__work-title--right">
+									A KITTEN’S LIFE
+								</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item mix photography">
+							<div class="works__work-img">
+								<img src="images/works__item-3.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title">GROOVEMADE PRODUCTS FOR MAC</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item mix illustrator">
+							<div class="works__work-img">
+								<img src="images/works__item-4.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title works__work-title--right">
+									APPLE’S LOST MAGIC
+								</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item mix web-design">
+							<div class="works__work-img">
+								<img src="images/works__item-1.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title">100 YEARS PHOTOGRAPHY</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item works__word-item--allocated mix branding">
+							<div class="works__work-img">
+								<img src="images/works__item-2.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title works__work-title--right">
+									A KITTEN’S LIFE
+								</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item mix photography">
+							<div class="works__work-img">
+								<img src="images/works__item-3.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title">GROOVEMADE PRODUCTS FOR MAC</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item mix illustrator">
+							<div class="works__work-img">
+								<img src="images/works__item-4.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title works__work-title--right">
+									APPLE’S LOST MAGIC
+								</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item mix web-design">
+							<div class="works__work-img">
+								<img src="images/works__item-1.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title">100 YEARS PHOTOGRAPHY</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item works__word-item--allocated mix branding">
+							<div class="works__work-img">
+								<img src="images/works__item-2.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title works__work-title--right">
+									A KITTEN’S LIFE
+								</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item mix photography">
+							<div class="works__work-img">
+								<img src="images/works__item-3.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title">GROOVEMADE PRODUCTS FOR MAC</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+						<a href="#" class="works__work-item mix illustrator">
+							<div class="works__work-img">
+								<img src="images/works__item-4.jpg" alt="" />
+							</div>
+							<div class="works__work-content">
+								<h3 class="works__work-title works__work-title--right">
+									APPLE’S LOST MAGIC
+								</h3>
+								<p class="works__work-type">Photography</p>
+								<p class="works__work-text">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+								</p>
+								<p class="works__work-link">READ MORE</p>
+							</div>
+						</a>
+					</div>
+					<div class="works__more-inner">
+						<a href="#" class="works__more"> view more </a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="team">
+			<div class="container">
+				<div class="team__inner">
+					<h2 class="team__title title">The Team</h2>
+					<ul class="team__items">
+						<li class="team__item">
+							<img class="team__item-img" src="images/team/team-1.jpg" alt="TOM JONES" />
+							<div class="team__item-content">
+								<div class="team__item-content--default">
+									<h4 class="team__item-content__name">TOM JONES</h4>
+								</div>
+								<div class="team__item-content--hover">
+									<h4 class="team__item-content__name">TOM JONES</h4>
+									<p class="team__item-content__position">
+										Creative Director
+									</p>
+									<blockquote class="team__item-content__quote">
+										Create with simplicity in mind! Create withCreate with
+										simplicity in mind! Create withCreate with simplicity in
+										mind! Create withCreate with simplicity in mind! Create
+										with
+									</blockquote>
+								</div>
+							</div>
+						</li>
+						<li class="team__item">
+							<img class="team__item-img" src="images/team/team-2.jpg" alt="MICHAEL FRAUP" />
+							<div class="team__item-content">
+								<div class="team__item-content--default">
+									<h4 class="team__item-content__name">MICHAEL FRAUP</h4>
+								</div>
+								<div class="team__item-content--hover">
+									<h4 class="team__item-content__name">MICHAEL FRAUP</h4>
+									<p class="team__item-content__position">
+										Creative Director
+									</p>
+									<blockquote class="team__item-content__quote">
+										Create with simplicity in mind!
+									</blockquote>
+								</div>
+							</div>
+						</li>
+						<li class="team__item">
+							<img class="team__item-img" src="images/team/team-3.jpg" alt="TIM CAHILL" />
+							<div class="team__item-content">
+								<div class="team__item-content--default">
+									<h4 class="team__item-content__name">TIM CAHILL</h4>
+								</div>
+								<div class="team__item-content--hover">
+									<h4 class="team__item-content__name">TIM CAHILL</h4>
+									<p class="team__item-content__position">
+										Creative Director
+									</p>
+									<blockquote class="team__item-content__quote">
+										Create with simplicity in mind!
+									</blockquote>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="rating">
+			<div class="container">
+				<ul class="rating__items">
+					<li class="rating__item">
+						<div class="rating__wrapper">
+							<p class="rating__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<img src="images/rating.png" alt="99" class="rating__img" />
+							<p class="rating__info">DAVID JAMES <span>/ Web Design</span></p>
+							>
+							<select id="rating-1">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</div>
+					</li>
+					<li class="rating__item">
+						<div class="rating__wrapper">
+							<p class="rating__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<img src="images/rating.png" alt="99" class="rating__img" />
+							<p class="rating__info">DAVID JAMES <span>/ Web Design</span></p>
+							>
+							<select id="rating-2">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</div>
+					</li>
+					<li class="rating__item">
+						<div class="rating__wrapper">
+							<p class="rating__text">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
+							<img src="images/rating.png" alt="99" class="rating__img" />
+							<p class="rating__info">DAVID JAMES <span>/ Web Design</span></p>
+							>
+							<select id="rating-3">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+							</select>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<section class="contacts">
+			<div class="contacts__items">
+				<div class="contacts__item contacts__left">
+					<div class="contacts__img">
+						<svg id="regular" enable-background="new 0 0 24 24" height="35" viewBox="0 0 24 24" width="35"
+							xmlns="http://www.w3.org/2000/svg">
+							<g>
+								<path
+									d="m12 14c-.08 0-.16-.013-.237-.039l-11.25-3.75c-.393-.13-.605-.555-.474-.948.13-.393.556-.606.949-.474l11.012 3.67 11.013-3.671c.394-.13.818.082.949.474.131.393-.081.818-.474.949l-11.25 3.75c-.078.026-.158.039-.238.039z" />
+							</g>
+							<g>
+								<path
+									d="m21.25 22h-18.5c-1.517 0-2.75-1.233-2.75-2.75v-11.5c0-1.517 1.233-2.75 2.75-2.75h18.5c1.517 0 2.75 1.233 2.75 2.75v11.5c0 1.517-1.233 2.75-2.75 2.75zm-18.5-15.5c-.689 0-1.25.561-1.25 1.25v11.5c0 .689.561 1.25 1.25 1.25h18.5c.689 0 1.25-.561 1.25-1.25v-11.5c0-.689-.561-1.25-1.25-1.25z" />
+							</g>
+							<g>
+								<path
+									d="m15.25 6.5c-.414 0-.75-.336-.75-.75v-2c0-.138-.112-.25-.25-.25h-4.5c-.138 0-.25.112-.25.25v2c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-2c0-.965.785-1.75 1.75-1.75h4.5c.965 0 1.75.785 1.75 1.75v2c0 .414-.336.75-.75.75z" />
+							</g>
+						</svg>
+					</div>
+					<h5 class="contacts__title">Want to work together?</h5>
+					<p class="contacts__descr">
+						Amazing. Tell us about your project!Amazing. Tell us about your project!
+					</p>
+				</div>
+				<a href="#" class="contacts__item contacts__right">
+					<div class="contacts__img">
+						<?xml version="1.0" encoding="iso-8859-1"?>
+						<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+						<svg height="35" width="35" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 477.867 477.867"
+							style="enable-background: new 0 0 477.867 477.867" xml:space="preserve">
+							<g>
+								<g>
+									<path d="M460.8,68.267H17.067C7.641,68.267,0,75.908,0,85.333v307.2c0,9.426,7.641,17.067,17.067,17.067H460.8
+			c9.426,0,17.067-7.641,17.067-17.067v-307.2C477.867,75.908,470.226,68.267,460.8,68.267z M432.811,102.4L238.933,251.529
+			L45.056,102.4H432.811z M443.733,375.467h-409.6V137.062L228.54,286.6c6.13,4.707,14.657,4.707,20.787,0l194.406-149.538V375.467z
+			" />
+								</g>
+							</g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+							<g></g>
+						</svg>
+					</div>
+					<h5 class="contacts__title">Contact us</h5>
+					<p class="contacts__descr">Get in touch</p>
+				</a>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="container">
+					<div class="footer__top-inner">
+						<p class="footer__top-addres">
+							3rd Floor, Santa Monica Beach, CA, San Francisco
+						</p>
+						<div class="footer__top-info">
+							<a href="tel:3590123456789">(359) 0 123 456 789</a>
+							-
+							<a href="mailto:info@yourmail.com">info@yourmail.com</a>
+						</div>
+						<ul class="footer__top-socials">
+							<li class="footer__top-social">
+								<a href="#">
+									<img src="images/social/facebook.png" alt="facebook" />
+								</a>
+							</li>
+							<li class="footer__top-social">
+								<a href="#">
+									<img src="images/social/twitter.png" alt="twitter" />
+								</a>
+							</li>
+							<li class="footer__top-social">
+								<a href="#">
+									<img src="images/social/pinterest.png" alt="pinterest" />
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="footer__bottom-inner">
+						<p class="footer__bottom-copy">
+							Copyright 2016 - All Rights Reserved - Designed by JD
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
