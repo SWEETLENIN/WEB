@@ -17,7 +17,7 @@ city1.getName = function (){
 }
 
 
-//console.log(city1.getName())
+console.log(city1.getName())
 
 
 city2.getName = function (){
@@ -25,7 +25,7 @@ city2.getName = function (){
 }
 
 
-//console.log(city2.getName())
+console.log(city2.getName())
 
 
 //задание 4
@@ -44,8 +44,8 @@ city2.exportStr = function(){
 }
 
 
-//console.log(city1.exportStr());
-//console.log(city2.exportStr());
+console.log(city1.exportStr());
+console.log(city2.exportStr());
 
 
 //задание 5
@@ -57,8 +57,8 @@ city1.getCity = GetObj;
 city2.getCity = GetObj;
 
 
-//console.log(city1.getCity().getName())
-//console.log(city2.getCity().population)
+console.log(city1.getCity().getName())
+console.log(city2.getCity().population)
 
 
 //задание 6
@@ -86,9 +86,9 @@ var Card = {
 }
 
 
-//let c1="Екатеринбург Москва"
-//Card.Show=c1
-//console.log(Card.Show)
+let c1="Екатеринбург Москва"
+Card.Show=c1
+console.log(Card.Show)
 
 
 //задание 16
@@ -124,8 +124,8 @@ let humans = [
 ];
 
 
-//for (let human of humans)
-//    console.log(human.getInfo());
+for (let human of humans)
+    console.log(human.getInfo());
 
 
 //Задание 17
@@ -147,7 +147,7 @@ numbers.sort(function(a, b) {
 });
 
 
-//console.log(numbers);
+console.log(numbers);
 
 
 //Задание 18
@@ -155,7 +155,7 @@ var date = new Date(2045, 0, 1, 0, 0, 0, 0)
 dt1 = date
 
 
-//console.log(dt1);
+console.log(dt1);
 
 
 //задание 19
@@ -163,7 +163,7 @@ let now=new Date()
 let dt2= now.getTime()
 
 
-//console.log(dt2)
+console.log(dt2)
 
 
 //Задание 20
