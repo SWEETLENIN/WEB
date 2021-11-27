@@ -8,7 +8,7 @@ function Sharp(){
 }
 
 
-//Sharp();
+Sharp();
 
 
 
@@ -29,7 +29,7 @@ function FizzBuzz(){
 }
 
 
-//FizzBuzz()
+FizzBuzz()
 
 
 function FizzBuzzNew(){
@@ -44,7 +44,7 @@ function FizzBuzzNew(){
 }
 
 
-//FizzBuzzNew()
+FizzBuzzNew()
 
 
 
@@ -77,7 +77,7 @@ function ChessTable(){
     }
 }
 
-//ChessTable()
+ChessTable()
 
 
 
@@ -92,7 +92,7 @@ function Min(a,b){
     }
 }
 
-//Min("abcdef","abc")
+Min("abcdef","abc")
 
 
 
@@ -108,7 +108,7 @@ function countBs(str){
     console.log(counter)
 }
 
-//countBs("BAAAASFSFBBBBSFSFSBB")
+countBs("BAAAASFSFBBBBSFSFSBB")
 
 
 function countChar(str,symb){
@@ -121,7 +121,7 @@ function countChar(str,symb){
     console.log(counter)
 }
 
-//countChar("ABVDBDJTDJV0","J")
+countChar("ABVDBDJTDJV0","J")
 
 
 //задание 6
@@ -144,7 +144,7 @@ function range(chislo1,chislo2, shag=1){
     console.log(arr)
 }
 
-//range(10,5,-1)
+range(10,5,-1)
 
 function sum(arr){
     let chislo=0
@@ -154,7 +154,7 @@ function sum(arr){
     console.log(chislo)
 }
 
-//sum([1,2,3,5,7])
+sum([1,2,3,5,7])
 
 
 //задание 7
@@ -166,7 +166,7 @@ function reverseArray(arr){
     console.log(newarr)
 }
 
-//reverseArray([4,5,6,7,8])
+reverseArray([4,5,6,7,8])
 
 
 function reverseArrayInPlace(arr){
@@ -185,7 +185,7 @@ function reverseArrayInPlace(arr){
     console.log(arr)
 }
 
-//reverseArrayInPlace([2,3,4,5,6])
+reverseArrayInPlace([2,3,4,5,6])
 
 //задание 8
 var list = {
