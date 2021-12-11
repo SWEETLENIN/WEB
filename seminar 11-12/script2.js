@@ -424,3 +424,22 @@ function getDays (month, year) {
 
 console.log(getDays(2, 2002));
 console.log(getDays(2, 2020));
+
+
+//Задание 22
+function isOdd(val){
+    if (val%2!=0){
+        isOdd=true;
+    }
+}
+Number.prototype.isOdd=function (val){
+    if (val%2!=0){
+        return this.isOdd=true
+    }
+    else{
+        return this.isOdd=false
+    }
+}
+
+
+console.log(Number.prototype.isOdd(3))
